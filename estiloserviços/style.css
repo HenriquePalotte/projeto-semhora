@@ -59,3 +59,15 @@ nav > a:hover {
 article > h1 {
     font-family: var(--fonte3);
 }
+
+article > h1 {
+    padding-left: 20px;
+}
+
+article > h2 {
+    padding-left: 20px;
+}
+
+article > p {
+    padding-left: 20px; 
+}
