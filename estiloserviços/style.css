@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
 
 :root {
     --cor1: #BAF8F9;
@@ -11,9 +12,9 @@
     --cor4: #82ADAD;
     --cor5: #2C6061;
 
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2:'Passion One', cursive;
-    --fonte3: 'Sriracha', cursive;
+    --fonte1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fonte2: 'Cairo', sans-serif;
+    --fonte3: 
 }
 
 * {
@@ -43,7 +44,7 @@ nav {
 
 nav >a {
     color: var(--cor2);
-    font-family: var(--fonte-semhora);
+    
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -57,7 +58,7 @@ nav > a:hover {
 }
 
 article > h1 {
-    font-family: var(--fonte3);
+    
 }
 
 article > h1 {
