@@ -24,17 +24,22 @@
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     font-family: var(--fonte-semhora);
     
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4), var(--cor5)) ;   
-    text-align: center;
+    background-image: url(../imagens/logo\ home.jpeg);
+    
+    
+    
+    
+    
+    
     padding-top: 40px;
     min-height: 150px;
-    color: black;
+    color: white;
     
 }
 
@@ -55,14 +60,15 @@ header > p {
 }
 
 nav {
-    background-color: var(--cor5);
+    
     padding: 10px;
     box-shadow: 2px 2px 2px   rgba(0, 0, 0, 0.164);
-
+    
+    
 }
 
 nav >a {
-    color: var(--cor2);
+    color: black;
     font-family: var(--fonte-semhora);
     padding: 10px;
     border-radius: 5px;
@@ -165,9 +171,10 @@ div.video > iframe {
 } 
 
 footer {
-    background-color: var(--cor5);
+    background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 footer a {
