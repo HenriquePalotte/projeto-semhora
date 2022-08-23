@@ -6,19 +6,6 @@
 
 
 
-:root {
-    --cor1: #BAF8F9;
-    --cor2: #A8DFE0;
-    --cor3: #67E3E6;
-    --cor4: #82ADAD;
-    --cor5: #2C6061;
-    --cor6: #2C6061;
-
-    --fonte1: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --fonte2: 'Cairo', sans-serif;
-    --fonte3: 'Lato', sans-serif;
-}
-
 * {
     margin: 0px;
     padding: 0px;
