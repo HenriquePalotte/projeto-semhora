@@ -25,32 +25,31 @@
 }
 
 body {
-    background-color: var(--cor2);
+    background: rgb(45,45,45);
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(1,8,9,1) 91%);;
+    font-family: var(--fonte-semhora);
 }
 
 header {
-    background-image: url(../imagens/logoserviço.jpeg) ;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: var(--fonte3);
-    font-size: 2.5em;
+    color: white;
+    background: rgb(45,45,45);
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(1,8,9,1) 100%);  
     text-align: center;
-    padding-top: 40px;
-    min-height: 150px;
-    color: black;
+    padding: 50px;
+    font-size: 1.3em;
 }
 
-
 nav {
-    background-color: var(--cor5);
+    background: rgb(45,45,45);
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(1,8,9,1) 91%);;
+    font-family: var(--fonte-semhora);
     padding: 10px;
     box-shadow: 2px 2px 2px   rgba(0, 0, 0, 0.164);
 
 }
 
 nav >a {
-    color: var(--cor2);
-    
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -59,8 +58,11 @@ nav >a {
 }
 
 nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
+    background-color: rgb(58, 57, 57);
+}
+
+main {
+    background-color: white;
 }
 
 article > h1 {
@@ -82,3 +84,25 @@ article > h2 {
 article > p {
     padding-left: 20px; 
 }
+
+footer {
+    background: rgb(45,45,45);
+    background: linear-gradient(90deg, rgba(45,45,45,1) 0%, rgba(1,8,9,1) 100%);;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+footer a:hover {
+    background-color: rgb(58, 57, 57);
+}
+    
